@@ -35,7 +35,7 @@ def show_fig(mean_list):
     print('Mean of sampling distribution', mean)
     fig = pff.create_distplot(
         [df],
-        ['temp'],
+        ['RESPONSES'],
         show_hist = False
     )
    
